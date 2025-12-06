@@ -31,7 +31,7 @@ public:
 
 // TODO: Создать класс Teacher, наследующий от Person и Employee
 class Teacher : public Person, public Employee {
-protected:  // Изменили с private на protected для доступа в derived классах
+protected:
     string subject;
     int experienceYears;
 
